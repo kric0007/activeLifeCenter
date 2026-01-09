@@ -1,0 +1,37 @@
+:root {
+    --dark01: #1C1B17;
+    --red02: #BA410D;
+    --orange02: #FD9C42;
+    --orange03: #FFD7B1;
+    --green01: #8FBC2A;
+    --light01:#F4F3EE;
+}
+.bg-body-tertiary { 
+    background-color: rgb(244 243 238) !important; 
+}
+body {
+    font-family: 'Varta';
+    background-color: #1C1B17;
+}
+.navbar-nav {
+    --bs-nav-link-color: var(--dark01);
+    --bs-navbar-active-color: var(--red02);
+}
+.btn-primary {
+    --bs-btn-bg: var(--red02);
+    --bs-btn-border-color: var(--orange02);
+    --bs-btn-hover-bg: #B74F22;
+    --bs-btn-hover-border-color: var(--orange03);
+}
+
+
+#about-section {
+    background-color: #2C2E25;
+}
+h2 {
+    font-family: 'Vina Sans';
+    color: var(--green01);
+}
+p {
+    color: var(--light01);
+}
